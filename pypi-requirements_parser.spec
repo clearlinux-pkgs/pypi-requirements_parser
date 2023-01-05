@@ -4,7 +4,7 @@
 #
 Name     : pypi-requirements_parser
 Version  : 0.5.0
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/c2/f9/76106e710015f0f8da37bff8db378ced99ae2553cc4b1cffb0aef87dc4ac/requirements-parser-0.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c2/f9/76106e710015f0f8da37bff8db378ced99ae2553cc4b1cffb0aef87dc4ac/requirements-parser-0.5.0.tar.gz
 Summary  : This is a small Python module for parsing Pip requirement files.
