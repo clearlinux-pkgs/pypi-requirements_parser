@@ -6,10 +6,10 @@
 # autospec commit: b5caddc
 #
 Name     : pypi-requirements_parser
-Version  : 0.10.0
-Release  : 12
-URL      : https://files.pythonhosted.org/packages/08/cf/1add5dce736da4b12b6b4a8e2c41922948c39a93ba52405452dada130d7a/requirements_parser-0.10.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/08/cf/1add5dce736da4b12b6b4a8e2c41922948c39a93ba52405452dada130d7a/requirements_parser-0.10.0.tar.gz
+Version  : 0.10.1
+Release  : 13
+URL      : https://files.pythonhosted.org/packages/74/b6/3ddc45047a7a5967585fd1ded72abbb65e6f5124028865762f2bea177e3e/requirements_parser-0.10.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/74/b6/3ddc45047a7a5967585fd1ded72abbb65e6f5124028865762f2bea177e3e/requirements_parser-0.10.1.tar.gz
 Summary  : This is a small Python module for parsing Pip requirement files.
 Group    : Development/Tools
 License  : Apache-2.0
@@ -58,10 +58,10 @@ python3 components for the pypi-requirements_parser package.
 
 
 %prep
-%setup -q -n requirements_parser-0.10.0
-cd %{_builddir}/requirements_parser-0.10.0
+%setup -q -n requirements_parser-0.10.1
+cd %{_builddir}/requirements_parser-0.10.1
 pushd ..
-cp -a requirements_parser-0.10.0 buildavx2
+cp -a requirements_parser-0.10.1 buildavx2
 popd
 
 %build
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1721750568
+export SOURCE_DATE_EPOCH=1721773341
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
