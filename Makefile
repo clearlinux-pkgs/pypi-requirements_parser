@@ -1,5 +1,5 @@
 PKG_NAME := pypi-requirements_parser
-URL = https://files.pythonhosted.org/packages/05/70/80ed53ebd21853855aad552d4ed6c4934df62cd32fe9a3669fcdef59429c/requirements_parser-0.11.0.tar.gz
+URL = https://files.pythonhosted.org/packages/3e/db/408c9f7ecea6a1e209665053f28fb06b2eef46ba8d0bdc0ae55ccb0d0279/requirements_parser-0.12.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
